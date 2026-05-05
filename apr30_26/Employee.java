@@ -1,9 +1,9 @@
 package apr30_26;
 
 public class Employee {
-    string name ="Mira";
-    string department = "HR";
-    int id = 1234;
+    string name ;
+    string department ;
+    int id ;
 }
 
 public static Developer( string name, string department int id, string programmingLanguage){
