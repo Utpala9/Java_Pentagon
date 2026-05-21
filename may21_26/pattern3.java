@@ -1,7 +1,7 @@
 public class pattern3 {
     public static void main(String[] args) {
-        int row = 9;
-        space =7;
+        
+        space =9;
     
 
         for (int i =1; i <= row; i++){
@@ -9,7 +9,7 @@ public class pattern3 {
             System.out.print(ch);
             for(int j = 1; j <= i; j++){
                 System.out.print(ch);
-                ch++
+                ch++;
             }
         }
 
@@ -17,9 +17,19 @@ public class pattern3 {
 
         for (int k =1 ; k < space; k++){
 
+             System.out.println(" ");
+
         }
 
-    System.out.println();    
- }
+        ch--;
+        for( int l=1; l<= i; l++){
+            if (l!= 5)
+                System.out.println(ch);
+            ch--;
+
+        }
+        space - = 2;
+        System.out.println();    
+    }
 
 }
